@@ -4,6 +4,9 @@ lderGuard is a real-time edge vision pipeline that detects elderly falls using T
 # ElderGuard: Privacy-Preserving Vision-Based Fall Detection Pipeline
 
 #Screenshot of Pipegen running
+<img width="1855" height="1049" alt="Screenshot from 2026-10-18 18-45-31" src="https://github.com/user-attachments/assets/c58da368-59be-4f43-b351-e50ad9606fd2" />
+<img width="1855" height="1049" alt="Screenshot from 2026-10-18 18-45-49" src="https://github.com/user-attachments/assets/ede536c3-8717-4765-9066-134a786f5a51" />
+
 <img width="1857" height="1058" alt="Screenshot from 2026-10-18 18-13-39" src="https://github.com/user-attachments/assets/4099e4ee-5109-4c6e-ba57-8051d768dd4f" />
 <img width="1857" height="1058" alt="Screenshot from 2026-10-18 18-13-23" src="https://github.com/user-attachments/assets/860acbcf-3f87-49dc-9a4e-82da034db765" />
 <img width="1730" height="966" alt="Screenshot from 2026-10-18 18-03-28" src="https://github.com/user-attachments/assets/5e3ea2d5-fd4b-4f5a-8c0f-c7bde52ff106" />
