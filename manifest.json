@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "project_name": "Privacy-First Fall and Immobility Alerts",
+  "project_id": "8cae1f84-73cb-45ed-b32a-297ba1382c88",
+  "pipegen_version": "0.5.1",
+  "exported_at": "2026-10-18T21:58:28Z",
+  "origin": {
+    "gpu": "NVIDIA GeForce RTX 3050 A Laptop GPU",
+    "trt": "10.3.0",
+    "arch": "x86_64",
+    "image": "craftifaidocker/deepstream:7.1-amd64-v3",
+    "gpu_slug": "nvidia-geforce-rtx-3050-a-laptop-gpu"
+  },
+  "models": [
+    {
+      "name": "yolo11n-pose",
+      "onnx": "models/yolo11n-pose.onnx",
+      "plan": "models/yolo11n-pose.fp16.plan",
+      "precision": "fp16",
+      "workspace_mb": 1024,
+      "builder_optimization_level": 3,
+      "origin_builder_optimization_level": 0,
+      "onnx_sha256": "a9e3d4cd14b34e2c53744140f02f53be0fdd4736c87ebbfd38a2578683c8ced3",
+      "plan_sha256": "5b50fcc77b0b5faef990ef095b463576cf98ae356b8092a255faa32a5a58b3ca",
+      "engine_bytes": 14039252,
+      "layer_count": 244
+    }
+  ],
+  "io": {
+    "default_input_kind": "file",
+    "default_input": "chest-pain-fall-sample.mov",
+    "supported_inputs": [
+      "file",
+      "rtsp"
+    ],
+    "input_required": true,
+    "output_dir": "out",
+    "has_display_sink": false
+  },
+  "warnings": [
+    "the pipeline read chest-pain-fall-sample.mov, which lives outside the project and cannot be shipped \u2014 the recipient must pass --input"
+  ]
+}
