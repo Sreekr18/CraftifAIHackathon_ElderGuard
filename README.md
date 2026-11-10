@@ -1,5 +1,5 @@
 # CraftifAIHackathon_ElderGuard
-lderGuard is a real-time edge vision pipeline that detects elderly falls using TensorRT FP16 pose estimation (yolov8_pose_parallel), verifies prolonged immobility, and triggers MQTT alerts while applying on-device Gaussian blurring before saving any frames.   
+ElderGuard is a real-time edge vision pipeline that detects elderly falls using TensorRT FP16 pose estimation (yolov8_pose_parallel), verifies prolonged immobility, and triggers MQTT alerts while applying on-device Gaussian blurring before saving any frames.   
 
 # ElderGuard: Privacy-Preserving Vision-Based Fall Detection Pipeline
 
