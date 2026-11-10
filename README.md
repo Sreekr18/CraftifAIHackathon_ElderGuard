@@ -2,7 +2,8 @@
 ElderGuard is a real-time edge vision pipeline that detects elderly falls using TensorRT FP16 pose estimation (yolov8_pose_parallel), verifies prolonged immobility, and triggers MQTT alerts while applying on-device Gaussian blurring before saving any frames.   
 
 # ElderGuard: Privacy-Preserving Vision-Based Fall Detection Pipeline
-
+#Video link  of Working pipeline
+https://drive.google.com/file/d/1HQImqK324Cd4LRT7OIlmeqJpthv4LJMU/view?usp=sharing
 #Screenshot of Pipegen running
 <img width="1855" height="1049" alt="Screenshot from 2026-10-18 18-45-31" src="https://github.com/user-attachments/assets/c58da368-59be-4f43-b351-e50ad9606fd2" />
 <img width="1855" height="1049" alt="Screenshot from 2026-10-18 18-45-49" src="https://github.com/user-attachments/assets/ede536c3-8717-4765-9066-134a786f5a51" />
@@ -13,7 +14,8 @@ ElderGuard is a real-time edge vision pipeline that detects elderly falls using 
 <img width="1909" height="1052" alt="Screenshot from 2026-10-18 17-58-56" src="https://github.com/user-attachments/assets/064fe8b9-e539-4f0b-bb55-a4612298fcc1" />
 <img width="1846" height="1049" alt="Screenshot from 2026-10-18 18-10-30" src="https://github.com/user-attachments/assets/98722b8e-c93b-4da2-ad45-ebdef289cd8e" />
 
-
+#Video of Working pipeline
+[Screencast from 10-19-2026 10_58_17 PM.webm](https://github.com/user-attachments/assets/5859295a-f6e8-46c3-8098-c2275e0e04ae)
 
 
 
